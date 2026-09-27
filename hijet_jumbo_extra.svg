@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1200" viewBox="0 0 1600 1200" font-family="WenQuanYi Zen Hei, sans-serif">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bcd3e4"/><stop offset="1" stop-color="#eef2f0"/></linearGradient>
+  <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b9b3a3"/><stop offset="1" stop-color="#8f8a7c"/></linearGradient>
+  <linearGradient id="khaki" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a7a181"/><stop offset=".45" stop-color="#8b8566"/><stop offset="1" stop-color="#6c674d"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5d7383"/><stop offset=".5" stop-color="#26323b"/><stop offset="1" stop-color="#141a1f"/></linearGradient>
+  <linearGradient id="polish" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f4f4"/><stop offset=".5" stop-color="#9a9a9a"/><stop offset="1" stop-color="#e2e2e2"/></linearGradient>
+  <radialGradient id="tire" cx=".5" cy=".5" r=".5"><stop offset=".6" stop-color="#2a2a2a"/><stop offset=".95" stop-color="#161616"/><stop offset="1" stop-color="#0d0d0d"/></radialGradient>
+  <pattern id="punch" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="#141414"/><circle cx="4.5" cy="4.5" r="1.3" fill="#3a3a3a"/></pattern>
+  <path id="arc" d="M -80 0 A 80 80 0 0 1 80 0"/>
+  <g id="wheel">
+    <circle r="92" fill="url(#tire)"/>
+    <circle r="89" fill="none" stroke="#0a0a0a" stroke-width="7" stroke-dasharray="9 6"/>
+    <text font-size="15" font-weight="bold" fill="#fff" letter-spacing="1.5" font-family="DejaVu Sans, sans-serif"><textPath href="#arc" startOffset="50%" text-anchor="middle">MONSTA · RT HYBRID</textPath></text>
+    <circle r="59" fill="url(#polish)"/>
+    <circle r="53" fill="#060606"/>
+    <g stroke="#1c1c1c" stroke-width="7" stroke-linecap="round">
+      <line x1="0" y1="-14" x2="0" y2="-52"/><line x1="0" y1="-14" x2="0" y2="-52" transform="rotate(40)"/><line x1="0" y1="-14" x2="0" y2="-52" transform="rotate(80)"/><line x1="0" y1="-14" x2="0" y2="-52" transform="rotate(120)"/><line x1="0" y1="-14" x2="0" y2="-52" transform="rotate(160)"/><line x1="0" y1="-14" x2="0" y2="-52" transform="rotate(200)"/><line x1="0" y1="-14" x2="0" y2="-52" transform="rotate(240)"/><line x1="0" y1="-14" x2="0" y2="-52" transform="rotate(280)"/><line x1="0" y1="-14" x2="0" y2="-52" transform="rotate(320)"/>
+    </g>
+    <circle r="33" fill="none" stroke="#1c1c1c" stroke-width="5"/>
+    <circle r="45" fill="none" stroke="#1c1c1c" stroke-width="4" stroke-dasharray="14 3.5"/>
+    <g stroke="#5a5a5a" stroke-width="1.2" fill="none" opacity=".8"><circle r="35.5"/><path d="M -2 -16 L -2 -50" /><path d="M -2 -16 L -2 -50" transform="rotate(120)"/><path d="M -2 -16 L -2 -50" transform="rotate(240)"/></g>
+    <circle r="17" fill="#111" stroke="#444" stroke-width="1.5"/>
+    <g fill="#000" stroke="#555" stroke-width="1"><circle cx="0" cy="-10" r="3"/><circle cx="10" cy="0" r="3"/><circle cx="0" cy="10" r="3"/><circle cx="-10" cy="0" r="3"/></g>
+    <circle r="4.5" fill="#222" stroke="#666" stroke-width="1"/>
+  </g>
+</defs>
+
+<!-- background -->
+<rect width="1600" height="1200" fill="#f3f1ec"/>
+<rect width="1600" height="700" fill="url(#sky)"/>
+<rect y="700" width="1600" height="90" fill="url(#ground)"/>
+<text x="1560" y="52" text-anchor="end" font-size="30" font-weight="bold" fill="#2b2a24">ハイゼット ジャンボ エクストラ 4WD CVT（S510P）</text>
+<text x="1560" y="84" text-anchor="end" font-size="18" fill="#4a4838">ボディカラー：カーキ ／ HARD CARGO パーツ ／ WEDS グラフト 9M + MONSTA RT HYBRID</text>
+<ellipse cx="760" cy="702" rx="600" ry="18" fill="#000" opacity=".25"/>
+
+<!-- chassis / frame -->
+<rect x="630" y="488" width="690" height="34" fill="#1d1d1d"/>
+<rect x="660" y="520" width="600" height="30" fill="#161616"/>
+<!-- fuel area with HARD CARGO fuel flap (khaki) + fuel cap (black) -->
+<rect x="662" y="492" width="118" height="78" rx="6" fill="#2a2a2a"/>
+<circle cx="721" cy="531" r="30" fill="#8b8566" stroke="#5e5943" stroke-width="2"/>
+<path d="M 705 515 q 8 -8 16 0 q 8 8 16 0" fill="none" stroke="#3e3b2c" stroke-width="2"/>
+<text x="721" y="552" font-size="7.5" fill="#2f2d22" text-anchor="middle" font-family="DejaVu Sans">WARNING!</text>
+<circle cx="721" cy="531" r="13" fill="#141414" stroke="#444" stroke-width="1.5"/>
+<text x="721" y="534" font-size="6" fill="#aaa" text-anchor="middle" font-family="DejaVu Sans">HARD</text>
+
+<!-- guard frame behind cab -->
+<rect x="640" y="130" width="20" height="360" fill="#1f1f1f"/>
+<rect x="640" y="130" width="20" height="8" fill="#3a3a3a"/>
+
+<!-- bed side gate -->
+<rect x="652" y="392" width="668" height="100" fill="url(#khaki)" stroke="#5a563f" stroke-width="2"/>
+<g stroke="#6c674d" stroke-width="3"><line x1="656" y1="420" x2="1316" y2="420"/><line x1="656" y1="450" x2="1316" y2="450"/></g>
+<g stroke="#b3ad8c" stroke-width="1.5"><line x1="656" y1="423" x2="1316" y2="423"/><line x1="656" y1="453" x2="1316" y2="453"/></g>
+<g fill="#4c4836"><rect x="760" y="484" width="18" height="10"/><rect x="1000" y="484" width="18" height="10"/><rect x="1200" y="484" width="18" height="10"/></g>
+<rect x="1308" y="392" width="12" height="100" fill="#5f5a44"/>
+<!-- max load sticker -->
+<rect x="1215" y="398" width="72" height="18" rx="2" fill="#0d1a33" stroke="#9fb3d6" stroke-width="1"/>
+<text x="1251" y="411" font-size="10" fill="#fff" text-anchor="middle">最大積載量350kg</text>
+
+<!-- GATE PLUS (rear gate extension rail) -->
+<g fill="none" stroke="#161616" stroke-linecap="round">
+  <path d="M 1316 392 L 1316 318 L 1150 318" stroke-width="9"/>
+  <path d="M 1150 318 L 1150 392" stroke-width="7"/>
+  <path d="M 1150 352 L 1316 352" stroke-width="6"/>
+  <path d="M 1195 318 V 392 M 1240 318 V 392 M 1280 318 V 392" stroke-width="4"/>
+</g>
+<rect x="1206" y="326" width="68" height="20" rx="3" fill="#0f0f0f" stroke="#555"/>
+<text x="1240" y="340" font-size="10.5" fill="#cfc9a6" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans">HARD CARGO</text>
+
+<!-- rear bumper / lamp -->
+<rect x="1290" y="492" width="36" height="46" fill="#1b1b1b"/>
+<rect x="1310" y="498" width="14" height="30" rx="3" fill="#c32020"/>
+
+<!-- rear wheel well -->
+<path d="M 855 552 A 118 118 0 0 1 1090 552 Z" fill="#101010"/>
+<!-- mud flap (edge) -->
+<rect x="1080" y="528" width="16" height="160" rx="2" fill="#181818"/>
+<rect x="1078" y="528" width="20" height="10" fill="#2a2a2a"/>
+
+<!-- CAB -->
+<path d="M 206 618 L 199 470 L 203 362 L 214 332 L 262 122 Q 272 90 305 88 L 600 84 Q 628 86 632 112 L 640 250 L 640 618 Z" fill="url(#khaki)" stroke="#57533d" stroke-width="2"/>
+<!-- roof highlight -->
+<path d="M 300 96 L 600 92" stroke="#c2bc9c" stroke-width="3" stroke-linecap="round"/>
+<!-- door window + jumbo quarter window -->
+<path d="M 303 140 L 505 134 L 508 300 L 266 300 Z" fill="url(#glass)" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+<path d="M 532 132 L 606 130 Q 614 131 615 142 L 620 292 Q 620 300 612 300 L 532 300 Z" fill="url(#glass)" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+<path d="M 318 150 L 360 150 L 300 280 L 285 280 Z" fill="#fff" opacity=".12"/>
+<!-- door cut lines -->
+<path d="M 262 312 L 522 312 L 522 612" fill="none" stroke="#4d4a36" stroke-width="2.5"/>
+<path d="M 262 312 L 256 380" fill="none" stroke="#4d4a36" stroke-width="2.5"/>
+<rect x="488" y="330" width="26" height="8" rx="3" fill="#2a2a2a"/>
+<!-- character line -->
+<path d="M 204 470 L 640 470" stroke="#b1ab8a" stroke-width="2"/>
+<path d="M 204 474 L 640 474" stroke="#5f5a44" stroke-width="1.5"/>
+<!-- front lights & bumper -->
+<rect x="199" y="382" width="14" height="44" rx="4" fill="#e9eef1" stroke="#777"/>
+<rect x="199" y="430" width="10" height="14" rx="3" fill="#f0a030"/>
+<rect x="194" y="530" width="44" height="72" rx="8" fill="#232323"/>
+<!-- side mirror -->
+<path d="M 262 300 L 236 312" stroke="#1a1a1a" stroke-width="6"/>
+<rect x="216" y="276" width="26" height="46" rx="6" fill="#1a1a1a"/>
+<!-- black side sill -->
+<rect x="440" y="604" width="200" height="18" fill="#1d1d1d"/>
+<!-- front wheel well -->
+<path d="M 228 620 A 118 118 0 0 1 462 620 Z" fill="#101010"/>
+<!-- badge -->
+<text x="580" y="455" font-size="11" fill="#dcd6b4" font-family="DejaVu Sans" font-style="italic" text-anchor="end">JUMBO EXTRA</text>
+
+<!-- wheels -->
+<use href="#wheel" x="345" y="608"/>
+<use href="#wheel" x="972" y="608"/>
+
+<!-- ===== detail panels ===== -->
+<g font-size="17" font-weight="bold" fill="#2b2a24">
+<text x="40" y="828">インテリア：9インチ ディスプレイオーディオ</text>
+<text x="560" y="828">黒レザー調シートカバー（パンチング）</text>
+<text x="1080" y="828">リア：ゲートプラス / マッドフラップ</text>
+</g>
+
+<!-- panel 1 : dashboard -->
+<clipPath id="c1"><rect x="30" y="840" width="500" height="340" rx="14"/></clipPath>
+<g clip-path="url(#c1)">
+  <rect x="30" y="840" width="500" height="340" fill="#2b2b2b"/>
+  <rect x="30" y="840" width="500" height="60" fill="#a9bccb"/>
+  <path d="M 30 900 Q 280 875 530 900 L 530 990 L 30 990 Z" fill="#1c1c1c"/>
+  <rect x="30" y="985" width="500" height="200" fill="#262626"/>
+  <!-- display -->
+  <rect x="150" y="905" width="216" height="128" rx="8" fill="#0b0b0b" stroke="#444" stroke-width="2"/>
+  <rect x="158" y="912" width="200" height="114" rx="3" fill="#1c2b3a"/>
+  <g stroke="#56708a" stroke-width="3" fill="none"><path d="M 160 960 L 315 952"/><path d="M 210 914 L 230 1024"/><path d="M 270 914 L 285 1024"/><path d="M 160 1000 Q 240 990 315 1005"/></g>
+  <path d="M 185 1010 L 225 975 L 280 955 L 300 925" stroke="#35a7ff" stroke-width="4" fill="none"/>
+  <circle cx="225" cy="975" r="5" fill="#ff5a3c"/>
+  <rect x="318" y="912" width="40" height="114" fill="#101820"/>
+  <g fill="#3f5870"><rect x="324" y="920" width="28" height="20" rx="3"/><rect x="324" y="946" width="28" height="20" rx="3"/><rect x="324" y="972" width="28" height="20" rx="3"/><rect x="324" y="998" width="28" height="20" rx="3"/></g>
+  <text x="165" y="926" font-size="10" fill="#cfe3f5" font-family="DejaVu Sans">12:30</text>
+  <path d="M 162 914 L 230 914 L 175 1024 L 160 1024 Z" fill="#fff" opacity=".05"/>
+  <!-- vents & AC -->
+  <g fill="#111"><rect x="165" y="1045" width="80" height="22" rx="4"/><rect x="270" y="1045" width="80" height="22" rx="4"/></g>
+  <g fill="#3a3a3a"><circle cx="195" cy="1100" r="14"/><circle cx="258" cy="1100" r="14"/><circle cx="321" cy="1100" r="14"/></g>
+  <!-- CVT lever -->
+  <rect x="96" y="1040" width="10" height="40" rx="4" fill="#555"/><circle cx="101" cy="1036" r="11" fill="#111" stroke="#666"/>
+  <!-- meter & steering (RHD) -->
+  <rect x="400" y="930" width="110" height="46" rx="20" fill="#0e0e0e" stroke="#444"/>
+  <circle cx="455" cy="953" r="16" fill="none" stroke="#e8e8e8" stroke-width="2"/><path d="M 455 953 L 466 943" stroke="#ff6d3a" stroke-width="2"/>
+  <circle cx="455" cy="1085" r="78" fill="none" stroke="#111" stroke-width="18"/>
+  <circle cx="455" cy="1085" r="78" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 385 1090 L 525 1090" stroke="#111" stroke-width="16"/>
+  <circle cx="455" cy="1092" r="26" fill="#1a1a1a" stroke="#3b3b3b" stroke-width="2"/>
+</g>
+
+<!-- panel 2 : seats -->
+<clipPath id="c2"><rect x="550" y="840" width="500" height="340" rx="14"/></clipPath>
+<g clip-path="url(#c2)">
+  <rect x="550" y="840" width="500" height="340" fill="#6f6c64"/>
+  <rect x="550" y="840" width="500" height="80" fill="#8e8a80"/>
+  <g id="seat">
+    <rect x="594" y="858" width="96" height="60" rx="18" fill="#161616"/>
+    <rect x="610" y="870" width="64" height="36" rx="10" fill="url(#punch)"/>
+    <rect x="620" y="914" width="8" height="18" fill="#777"/><rect x="656" y="914" width="8" height="18" fill="#777"/>
+    <rect x="572" y="928" width="140" height="170" rx="26" fill="#121212"/>
+    <rect x="602" y="944" width="80" height="140" rx="12" fill="url(#punch)"/>
+    <rect x="602" y="944" width="80" height="140" rx="12" fill="none" stroke="#5a5a5a" stroke-width="1.2" stroke-dasharray="4 3"/>
+    <line x1="604" y1="1012" x2="680" y2="1012" stroke="#5a5a5a" stroke-width="1.2" stroke-dasharray="4 3"/>
+    <rect x="564" y="1094" width="156" height="60" rx="18" fill="#121212"/>
+    <rect x="594" y="1102" width="96" height="40" rx="10" fill="url(#punch)"/>
+    <rect x="594" y="1102" width="96" height="40" rx="10" fill="none" stroke="#5a5a5a" stroke-width="1.2" stroke-dasharray="4 3"/>
+    <path d="M 590 940 Q 580 1010 592 1085" stroke="#2c2c2c" stroke-width="3" fill="none"/>
+  </g>
+  <use href="#seat" x="240"/>
+  <rect x="740" y="1060" width="52" height="94" rx="8" fill="#232323"/>
+</g>
+
+<!-- panel 3 : rear view -->
+<clipPath id="c3"><rect x="1070" y="840" width="500" height="340" rx="14"/></clipPath>
+<g clip-path="url(#c3)">
+  <rect x="1070" y="840" width="500" height="340" fill="url(#sky)"/>
+  <rect x="1070" y="1135" width="500" height="45" fill="url(#ground)"/>
+  <ellipse cx="1320" cy="1138" rx="200" ry="10" fill="#000" opacity=".25"/>
+  <!-- cab rear -->
+  <rect x="1172" y="850" width="296" height="110" rx="16" fill="url(#khaki)" stroke="#57533d"/>
+  <rect x="1205" y="866" width="230" height="58" rx="8" fill="url(#glass)" stroke="#111" stroke-width="3"/>
+  <rect x="1160" y="918" width="320" height="10" fill="#1f1f1f"/>
+  <!-- tires -->
+  <rect x="1152" y="1030" width="58" height="108" rx="12" fill="#1a1a1a"/>
+  <rect x="1430" y="1030" width="58" height="108" rx="12" fill="#1a1a1a"/>
+  <g stroke="#0a0a0a" stroke-width="4" stroke-dasharray="6 5"><line x1="1156" y1="1030" x2="1156" y2="1136"/><line x1="1484" y1="1030" x2="1484" y2="1136"/></g>
+  <rect x="1180" y="1030" width="280" height="40" fill="#141414"/>
+  <!-- tailgate -->
+  <rect x="1145" y="955" width="350" height="82" fill="url(#khaki)" stroke="#57533d" stroke-width="2"/>
+  <g stroke="#6c674d" stroke-width="3"><line x1="1149" y1="978" x2="1491" y2="978"/><line x1="1149" y1="1004" x2="1491" y2="1004"/></g>
+  <rect x="1412" y="1010" width="62" height="18" rx="2" fill="#0d1a33" stroke="#9fb3d6"/>
+  <text x="1443" y="1023" font-size="9" fill="#fff" text-anchor="middle">最大積載量350kg</text>
+  <!-- gate plus -->
+  <g stroke="#141414" fill="none" stroke-linecap="round">
+    <path d="M 1148 955 V 900 H 1492 V 955" stroke-width="8"/>
+    <path d="M 1148 928 H 1492" stroke-width="5"/>
+    <path d="M 1190 900 V 955 M 1232 900 V 955 M 1408 900 V 955 M 1450 900 V 955" stroke-width="4"/>
+  </g>
+  <rect x="1272" y="906" width="96" height="26" rx="3" fill="#0f0f0f" stroke="#555"/>
+  <text x="1320" y="924" font-size="13" fill="#cfc9a6" text-anchor="middle" font-weight="bold" font-family="DejaVu Sans">HARD CARGO</text>
+  <!-- bumper, lamps, plate -->
+  <rect x="1140" y="1037" width="360" height="30" fill="#1c1c1c"/>
+  <rect x="1146" y="1040" width="34" height="22" rx="3" fill="#c32020"/><rect x="1460" y="1040" width="34" height="22" rx="3" fill="#c32020"/>
+  <rect x="1290" y="1042" width="60" height="32" rx="3" fill="#f2d23a" stroke="#555"/>
+  <!-- mud flaps black x khaki logo -->
+  <rect x="1150" y="1072" width="62" height="64" rx="3" fill="#121212"/>
+  <rect x="1428" y="1072" width="62" height="64" rx="3" fill="#121212"/>
+  <g font-size="9" fill="#9d9774" font-weight="bold" text-anchor="middle" font-family="DejaVu Sans"><text x="1181" y="1102">HARD</text><text x="1181" y="1114">CARGO</text><text x="1459" y="1102">HARD</text><text x="1459" y="1114">CARGO</text></g>
+</g>
+<text x="1560" y="1192" font-size="12" fill="#888" text-anchor="end">※イメージイラスト（実車・実製品とは細部が異なります）</text>
+</svg>
